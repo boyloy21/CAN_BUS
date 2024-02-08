@@ -1,0 +1,12 @@
+bno055_stm32.h:20:6:bno055_assignI2C	1
+bno055_stm32.h:24:6:bno055_delay	1
+bno055_stm32.h:32:6:bno055_writeData	23
+bno055_stm32.h:96:6:bno055_readData	1
+freertos.c:229:7:Map	1
+freertos.c:234:7:Speed_encoder	1
+freertos.c:242:6:read_encoder	4
+freertos.c:256:6:ReceiveMode	2
+freertos.c:281:6:vApplicationGetIdleTaskMemory	1
+freertos.c:295:6:MX_FREERTOS_Init	1
+freertos.c:338:6:Position_Init	1
+freertos.c:446:6:NRF_Init	6
