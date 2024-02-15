@@ -352,8 +352,8 @@ void Position_Init(void const * argument)
 	bno055_assignI2C(&hi2c1);
 	bno055_setup();
 	bno055_setOperationModeNDOF();
-	HAL_TIM_Encoder_Start(&htim1, TIM_CHANNEL_1);
-	HAL_TIM_Encoder_Start(&htim2, TIM_CHANNEL_2);
+	HAL_TIM_Encoder_Start(&htim1, TIM_CHANNEL_ALL);
+	HAL_TIM_Encoder_Start(&htim2, TIM_CHANNEL_ALL);
 //	SSD1306_Init();
 //	SSD1306_GotoXY(10, 10); // goto 10, 10
 //	SSD1306_Puts("mode:", &Font_7x10, 1); //
